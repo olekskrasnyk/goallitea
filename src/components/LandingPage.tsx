@@ -3,8 +3,8 @@ import imgImage2 from "../assets/alec-kendzerski.png";
 
 export default function LandingPage() {
   return (
-    <div className="bg-[#fdf8f0] content-stretch flex flex-col gap-[32px] md:gap-[48px] items-start p-[16px] md:p-[32px] relative size-full min-h-screen">
-      <div className="content-stretch flex flex-[1_0_0] items-start min-h-[300px] md:min-h-px min-w-px relative w-full">
+    <div className="bg-[#fdf8f0] content-stretch flex flex-col gap-[24px] md:gap-[48px] items-start justify-between p-[14px] pb-[max(14px,env(safe-area-inset-bottom))] md:p-[32px] relative size-full min-h-screen min-h-[100svh] min-h-dvh w-full overflow-x-clip">
+      <div className="content-stretch flex flex-[1_0_0] items-start min-h-[280px] min-h-[38svh] md:min-h-px min-w-px relative w-full overflow-hidden rounded-[20px] md:rounded-none">
         <div className="bg-black flex-[1_0_0] h-full min-h-px min-w-px" />
         <div className="bg-white flex-[1_0_0] h-full min-h-px min-w-px" />
         <div className="bg-black flex-[1_0_0] h-full min-h-px min-w-px" />
@@ -152,8 +152,8 @@ export default function LandingPage() {
           </div>
           <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-h-px min-w-px relative overflow-hidden">
             <p className="font-['Geist:Bold',sans-serif] font-bold h-[16px] leading-[20px] relative shrink-0 text-[#b4aea6] text-[11px] tracking-[0.88px] uppercase w-full">Brands I worked with:</p>
-            <div className="content-stretch flex flex-col items-start px-px relative shrink-0 overflow-x-auto md:overflow-visible w-full">
-              <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0 min-w-[453px] md:min-w-0">
+            <div className="content-stretch flex flex-col items-start px-px relative shrink-0 overflow-x-auto md:overflow-visible w-full pb-[6px] [-webkit-overflow-scrolling:touch]">
+              <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0 min-w-[390px] scale-[0.88] origin-left md:min-w-0 md:scale-100">
                 <div className="col-1 h-[13px] ml-0 mt-[9px] overflow-clip relative row-1 w-[67px]">
                   <div className="absolute contents inset-[1.43%_0.37%]">
                     <div className="absolute contents inset-[1.43%_0.37%]">
