@@ -1,3 +1,3 @@
 # goallitea
 
-Static production page for `goallitea.com`, rebuilt from the imported Figma export without Figma-specific codegen artifacts.
+Production Vite app for `goallitea.com`, deployed via Vercel.
