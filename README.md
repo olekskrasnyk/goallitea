@@ -1,3 +1,3 @@
 # goallitea
 
-Minimal static placeholder for `gualitae.com`.
+Minimal static placeholder for `goallitea.com`.
