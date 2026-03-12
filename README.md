@@ -1,3 +1,3 @@
 # goallitea
 
-Minimal static placeholder for `goallitea.com`.
+Static production page for `goallitea.com`, rebuilt from the imported Figma export without Figma-specific codegen artifacts.
